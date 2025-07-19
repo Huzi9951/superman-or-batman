@@ -14,7 +14,7 @@ transform = transforms.Compose([
 # Load Model
 model = models.vgg16(pretrained=False)
 model.classifier[6] = nn.Linear(4096, 2)
-model.load_state_dict(torch.load("model/superman_batman_vgg.pth", map_location='cpu'))
+model.load_state_dict(torch.load("model/model.pth", map_location='cpu'))
 model.eval()
 
 st.title("🦸‍♂️ Superman vs Batman Classifier")
