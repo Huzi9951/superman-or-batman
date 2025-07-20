@@ -3,7 +3,7 @@
 Upload an image and the app will predict whether it's Superman or Batman using a fine-tuned VGG16 model.
 
 ## Try it live on Streamlit (or Hugging Face Spaces)
-[Live Demo](https://share.streamlit.io/yourusername/superman-batman-classifier/main/app.py)
+[Live Demo](https://batmanorsuperman.streamlit.app)
 
 ## Local Setup
 ```bash
